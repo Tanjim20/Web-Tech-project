@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.leftbar ul{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background: lightskyblue;
+    border-radius: 5px;
+}
+.leftbar ul li{
+    margin-top: 20px;
+}
+.leftbar ul li:last-child{
+    margin-bottom: 20px;
+}
+.leftbar a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    padding: 10px;
+}
+.leftbar a:hover{
+    background: #fff;
+    border-radius: 5px;
+}

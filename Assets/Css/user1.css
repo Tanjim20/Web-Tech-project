@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.content{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.user-title{
+    font-size: 40px;
+    font-weight: 900;
+    color: #FF5E76;
+}
+.user-btns{
+    display: flex;
+    align-items: center;
+}
+.user-btns a{
+    padding: 5px;
+    background: lightsalmon;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 30px;
+}
+.user-btns a:hover{
+    background: lightskyblue;
+    border-radius: 5px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px;
+}
+.boxes div{
+    width: 300px;
+    background: #ff5e7658;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.boxes img{
+    width: 95%;
+    padding-top: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
+.boxes h3{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+.boxes p{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0000009b;
+}
+.boxes button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: lightskyblue;
+    color: #000;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 5px;
+}
+.boxes button:hover{
+    background: lightsalmon;
+    border-radius: 5px;
+}
+.message_box{
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 30px;
+}
+.cart{
+    float: right;
+    margin: 30px;
+}
+.cart a{
+    font-size: 18px;
+    font-weight: 900;
+    color: #000;
+    background: lightsalmon;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+.cart a:hover{
+    background: lightskyblue;
+    border-radius: 5px;
+}
+.cart-box{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    border-collapse: collapse;
+    width: 90%;
+}
+.table td, .table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table tr:hover {
+    background-color: #ddd;
+}
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #FF5E76;
+    color: white;
+    text-align: center;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.remove-btn{
+    color: #000;
+    background: salmon;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+}
+.remove-btn:hover{
+    background: lightskyblue;
+    border-radius: 5px;
+}
+.select-field{
+    width: 100%;
+    height: 20px;
+    font-size: 18px;
+    padding: 2px;    
+}
+#main{
+    width: 1200px;
+    margin: 0 auto;
+    background: white;
+    font-size: 20px;
+  }
+  #header{
+    background: lightsalmon;
+  }
+  h1{
+    float: left;
+    margin: 15px;
+  }
+  #search-bar{
+    padding: 10px 20px 0;
+    float: right;
+  }
+  #search-bar label{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
+  #search-bar input{
+    width: 300px;
+    height: 25px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+  }
+  #search-bar input:focus{
+    outline: 0;
+  }
+  #table-form{
+    background: lightskyblue;
+    padding: 20px 10px;
+  }
+  #table-form input[type="text"]{
+    height: 25px;
+  }
+  #table-form input[type="text"], textarea, select{
+    width: 300px;
+    font-size: 18px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: 1px solid #000;
+  }
+  #save-button{
+    background:lightsalmon;
+    color: #fff;
+    font-weight: 700;
+    border:none;
+    padding: 8px 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #save-button:hover{
+    background: lightpink;
+    color: #000;
+    border-radius: 5px;
+  }
+  #table-data{
+    padding: 15px;
+    height: 500px;
+    vertical-align: top;
+  }
+  #table-data th{
+    background: lightsalmon;
+  }
+  #table-data tr:nth-child(odd){
+    background: #6c6c6c32;
+  }
+  #table-data tr:hover,
+  #table-data tr:nth-child(odd):hover{
+    background: #6c6c6c22;
+  }
+  #success-message{
+    background: #DEF1D8;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 16px;
+  }
+  #error-message{
+    background: #EFDCDD;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position:absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 16px;
+  }

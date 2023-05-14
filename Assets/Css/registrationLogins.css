@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+ 
+ .form-container {
+    min-height: 100vh;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-image: url('../Images/reg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+ }
+ 
+ .form-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .form-container2 form {
+    padding: 20px;
+    border-radius: 5px;
+    background: #0c0c0ca4;
+    width: 500px;
+ }
+ 
+ .form-container2 form h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+ }
+ 
+.form-container2 form input,
+.form-container2 form select {
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+ }
+ .form-container2 form input[type=text],
+ .form-container2 form input[type=password],
+ .form-container2 form select,
+ .form-container2 form input[type=email]{
+   width: 100%;
+ }
+  
+ .form-container2 form select option {
+    background: #fff;
+ }
+ .form-container2 form .form-btn {
+    background: lightskyblue;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+ }
+ 
+ .form-container2 form .form-btn:hover {
+    background: lightsalmon;
+    color: #fff;
+    border-radius: 5px;
+ }
+ 
+ .form-container2 form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+ }
+ 
+ .form-container2 form p a {
+    color: lightsalmon;
+ }
+ 
+ .form-container2 form .error-msg {
+    text-transform: capitalize;
+    margin: 10px 0;
+    display: block;
+    background: coral;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+ }
+ .show-hide-pass{
+   display: flex;
+   align-items: center;
+   margin-left: 20px;
+ }
+ .checkbox{
+   width: 18px;
+   height: 18px;
+   border-radius: 5px;
+   margin: 5px;
+ }
+ .showpass{
+   font-size: 14px;
+   font-weight: 700;
+   text-align: center;
+   margin-left: 5px;
+   color: #fff;
+ }
